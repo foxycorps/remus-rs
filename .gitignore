@@ -1,0 +1,74 @@
+# Rust build directory
+/target/
+
+# Rust generated files
+**/*.rs.bk
+*.pdb
+
+# Cargo lock file (uncomment if this is a library)
+# Cargo.lock
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Debug files
+*.dSYM/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Generated documentation
+/doc/
+/docs/generated/
+
+# Test coverage
+/coverage/
+*.profraw
+
+# Benchmark results
+/benches/results/
+
+# Local development files
+/local/
+/tmp/
+/temp/
+
+# Log files
+*.log
+/logs/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Binary files
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Compressed files
+*.gz
+*.zip
+*.tar
+*.rar
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
